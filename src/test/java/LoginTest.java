@@ -28,7 +28,7 @@ public class LoginTest {
 		driver.findElement(By.id("identifierId")).sendKeys("vshivaganesh@gmail.com");
 		driver.findElement(By.xpath("//span[@class='RveJvd snByac']")).click();
 		driver.findElement(By.name("password")).sendKeys("ghesvsdr123");
-
+		driver.findElement(By.xpath("//span[@class='RveJvd snByac']")).click();
 	}
 
 	@AfterSuite
